@@ -1,3 +1,10 @@
+;; Place this file in C:\Users\Username\AppData\Roaming and point to the appropriate files
+;(setq user-init-file "C:/src/dotfiles/.emacs")
+;(setq user-emacs-directory "C:/src/dotfiles/.emacs.d/")
+;(setq default-directory "C:/src/org/")
+;(setenv "HOME" "C:/src/org/")
+;(load user-init-file)
+
 (require 'package)
 (add-to-list 'package-archives
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)

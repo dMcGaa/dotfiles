@@ -20,3 +20,7 @@ filetype plugin indent on
 
 " set color
 colorscheme delek
+
+" https://stackoverflow.com/questions/11873736/vim-ctrlp-plugin-manually-set-root-search-directory¬
+" https://github.com/ctrlpvim/ctrlp.vim¬
+let g:ctrlp_working_path_mode = 'ra'¬
